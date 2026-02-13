@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  user-select: none;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.board {
+  width: 800px;
+  height: 800px;
+  display: flex;
+  position: absolute;
+  flex-wrap: wrap;
+  border: 5px solid black;
+}
+
+.white-square {
+  background-color: rgb(255, 255, 255);
+  width: 12.5%;
+  height: 12.5%;
+  position: relative;
+}
+
+.black-square {
+  background-color: rgb(86, 146, 46);
+  width: 12.5%;
+  height: 12.5%;
+  position: relative;
+}
+
+.black {
+  font-size: 65px;
+  text-shadow: 1px 1px 1px #333;
+  color: black;
+}
+
+.white {
+  font-size: 65px;
+  text-shadow: 1px 1px 1px #333;
+  color: rgb(0, 0, 0);
+}
+
+.circle {
+  width: 27px;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  background-color: #535353;
+  opacity: 15%;
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.pieces {
+  height: 70px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.pawn {
+  height: 60px;
+}
+
+.king {
+  height: 74px;
+}
+
+.rook {
+  height: 67px;
+}

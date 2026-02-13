@@ -1,0 +1,479 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chess Board</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body>
+    <div class="board">
+      <!-- ROW 8 -->
+      <div class="white-square">
+        <img
+          id="a8"
+          class="pieces rook"
+          src="./Pieces/Black Rook.png"
+          data-row="8"
+          data-col="1"
+        />
+        <div class="circle" data-row="8" data-col="1"></div>
+      </div>
+      <div class="black-square">
+        <img
+          id="b8"
+          class="pieces"
+          src="./Pieces/Black Knight.png"
+          data-row="8"
+          data-col="2"
+        />
+        <div class="circle" data-row="8" data-col="2"></div>
+      </div>
+      <div class="white-square">
+        <img
+          id="c8"
+          class="pieces"
+          src="./Pieces/Black Bishop.png"
+          data-row="8"
+          data-col="3"
+        />
+        <div class="circle" data-row="8" data-col="3"></div>
+      </div>
+      <div class="black-square">
+        <img
+          id="d8"
+          class="pieces"
+          src="./Pieces/Black Queen.png"
+          data-row="8"
+          data-col="4"
+        />
+        <div class="circle" data-row="8" data-col="4"></div>
+      </div>
+      <div class="white-square">
+        <img
+          id="e8"
+          class="pieces king"
+          src="./Pieces/Black King.png"
+          data-row="8"
+          data-col="5"
+        />
+        <div class="circle" data-row="8" data-col="5"></div>
+      </div>
+      <div class="black-square">
+        <img
+          id="f8"
+          class="pieces"
+          src="./Pieces/Black Bishop.png"
+          data-row="8"
+          data-col="6"
+        />
+        <div class="circle" data-row="8" data-col="6"></div>
+      </div>
+      <div class="white-square">
+        <img
+          id="g8"
+          class="pieces"
+          src="./Pieces/Black Knight.png"
+          data-row="8"
+          data-col="7"
+        />
+        <div class="circle" data-row="8" data-col="7"></div>
+      </div>
+      <div class="black-square">
+        <img
+          id="h8"
+          class="pieces rook"
+          src="./Pieces/Black Rook.png"
+          data-row="8"
+          data-col="8"
+        />
+        <div class="circle" data-row="8" data-col="8"></div>
+      </div>
+
+      <!-- ROW 7 -->
+      <div class="black-square">
+        <img
+          id="a7"
+          class="pieces pawn"
+          src="./Pieces/Black Pawn.png"
+          data-row="7"
+          data-col="1"
+        />
+        <div class="circle" data-row="7" data-col="1"></div>
+      </div>
+      <div class="white-square">
+        <img
+          id="b7"
+          class="pieces pawn"
+          src="./Pieces/Black Pawn.png"
+          data-row="7"
+          data-col="2"
+        />
+        <div class="circle" data-row="7" data-col="2"></div>
+      </div>
+      <div class="black-square">
+        <img
+          id="c7"
+          class="pieces pawn"
+          src="./Pieces/Black Pawn.png"
+          data-row="7"
+          data-col="3"
+        />
+        <div class="circle" data-row="7" data-col="3"></div>
+      </div>
+      <div class="white-square">
+        <img
+          id="d7"
+          class="pieces pawn"
+          src="./Pieces/Black Pawn.png"
+          data-row="7"
+          data-col="4"
+        />
+        <div class="circle" data-row="7" data-col="4"></div>
+      </div>
+      <div class="black-square">
+        <img
+          id="e7"
+          class="pieces pawn"
+          src="./Pieces/Black Pawn.png"
+          data-row="7"
+          data-col="5"
+        />
+        <div class="circle" data-row="7" data-col="5"></div>
+      </div>
+      <div class="white-square">
+        <img
+          id="f7"
+          class="pieces pawn"
+          src="./Pieces/Black Pawn.png"
+          data-row="7"
+          data-col="6"
+        />
+        <div class="circle" data-row="7" data-col="6"></div>
+      </div>
+      <div class="black-square">
+        <img
+          id="g7"
+          class="pieces pawn"
+          src="./Pieces/Black Pawn.png"
+          data-row="7"
+          data-col="7"
+        />
+        <div class="circle" data-row="7" data-col="7"></div>
+      </div>
+      <div class="white-square">
+        <img
+          id="h7"
+          class="pieces pawn"
+          src="./Pieces/Black Pawn.png"
+          data-row="7"
+          data-col="8"
+        />
+        <div class="circle" data-row="7" data-col="8"></div>
+      </div>
+
+      <!-- ROW 6 -->
+      <div class="white-square">
+        <img id="a6" class="pieces empty" src="" data-row="6" data-col="1" />
+        <div class="circle" data-row="6" data-col="1"></div>
+      </div>
+      <div class="black-square">
+        <img id="b6" class="pieces empty" src="" data-row="6" data-col="2" />
+        <div class="circle" data-row="6" data-col="2"></div>
+      </div>
+      <div class="white-square">
+        <img id="c6" class="pieces empty" src="" data-row="6" data-col="3" />
+        <div class="circle" data-row="6" data-col="3"></div>
+      </div>
+      <div class="black-square">
+        <img id="d6" class="pieces empty" src="" data-row="6" data-col="4" />
+        <div class="circle" data-row="6" data-col="4"></div>
+      </div>
+      <div class="white-square">
+        <img id="e6" class="pieces empty" src="" data-row="6" data-col="5" />
+        <div class="circle" data-row="6" data-col="5"></div>
+      </div>
+      <div class="black-square">
+        <img id="f6" class="pieces empty" src="" data-row="6" data-col="6" />
+        <div class="circle" data-row="6" data-col="6"></div>
+      </div>
+      <div class="white-square">
+        <img id="g6" class="pieces empty" src="" data-row="6" data-col="7" />
+        <div class="circle" data-row="6" data-col="7"></div>
+      </div>
+      <div class="black-square">
+        <img id="h6" class="pieces empty" src="" data-row="6" data-col="8" />
+        <div class="circle" data-row="6" data-col="8"></div>
+      </div>
+
+      <!-- ROW 5 -->
+      <div class="black-square">
+        <img id="a5" class="pieces empty" src="" data-row="5" data-col="1" />
+        <div class="circle" data-row="5" data-col="1"></div>
+      </div>
+      <div class="white-square">
+        <img id="b5" class="pieces empty" src="" data-row="5" data-col="2" />
+        <div class="circle" data-row="5" data-col="2"></div>
+      </div>
+      <div class="black-square">
+        <img id="c5" class="pieces empty" src="" data-row="5" data-col="3" />
+        <div class="circle" data-row="5" data-col="3"></div>
+      </div>
+      <div class="white-square">
+        <img id="d5" class="pieces empty" src="" data-row="5" data-col="4" />
+        <div class="circle" data-row="5" data-col="4"></div>
+      </div>
+      <div class="black-square">
+        <img id="e5" class="pieces empty" src="" data-row="5" data-col="5" />
+        <div class="circle" data-row="5" data-col="5"></div>
+      </div>
+      <div class="white-square">
+        <img id="f5" class="pieces empty" src="" data-row="5" data-col="6" />
+        <div class="circle" data-row="5" data-col="6"></div>
+      </div>
+      <div class="black-square">
+        <img id="g5" class="pieces empty" src="" data-row="5" data-col="7" />
+        <div class="circle" data-row="5" data-col="7"></div>
+      </div>
+      <div class="white-square">
+        <img id="h5" class="pieces empty" src="" data-row="5" data-col="8" />
+        <div class="circle" data-row="5" data-col="8"></div>
+      </div>
+
+      <!-- ROW 4 -->
+      <div class="white-square">
+        <img id="a4" class="pieces empty" src="" data-row="4" data-col="1" />
+        <div class="circle" data-row="4" data-col="1"></div>
+      </div>
+      <div class="black-square">
+        <img id="b4" class="pieces empty" src="" data-row="4" data-col="2" />
+        <div class="circle" data-row="4" data-col="2"></div>
+      </div>
+      <div class="white-square">
+        <img id="c4" class="pieces empty" src="" data-row="4" data-col="3" />
+        <div class="circle" data-row="4" data-col="3"></div>
+      </div>
+      <div class="black-square">
+        <img id="d4" class="pieces empty" src="" data-row="4" data-col="4" />
+        <div class="circle" data-row="4" data-col="4"></div>
+      </div>
+      <div class="white-square">
+        <img id="e4" class="pieces empty" src="" data-row="4" data-col="5" />
+        <div class="circle" data-row="4" data-col="5"></div>
+      </div>
+      <div class="black-square">
+        <img id="f4" class="pieces empty" src="" data-row="4" data-col="6" />
+        <div class="circle" data-row="4" data-col="6"></div>
+      </div>
+      <div class="white-square">
+        <img id="g4" class="pieces empty" src="" data-row="4" data-col="7" />
+        <div class="circle" data-row="4" data-col="7"></div>
+      </div>
+      <div class="black-square">
+        <img id="h4" class="pieces empty" src="" data-row="4" data-col="8" />
+        <div class="circle" data-row="4" data-col="8"></div>
+      </div>
+
+      <!-- ROW 3 -->
+      <div class="black-square">
+        <img id="a3" class="pieces empty" src="" data-row="3" data-col="1" />
+        <div class="circle" data-row="3" data-col="1"></div>
+      </div>
+      <div class="white-square">
+        <img id="b3" class="pieces empty" src="" data-row="3" data-col="2" />
+        <div class="circle" data-row="3" data-col="2"></div>
+      </div>
+      <div class="black-square">
+        <img id="c3" class="pieces empty" src="" data-row="3" data-col="3" />
+        <div class="circle" data-row="3" data-col="3"></div>
+      </div>
+      <div class="white-square">
+        <img id="d3" class="pieces empty" src="" data-row="3" data-col="4" />
+        <div class="circle" data-row="3" data-col="4"></div>
+      </div>
+      <div class="black-square">
+        <img id="e3" class="pieces empty" src="" data-row="3" data-col="5" />
+        <div class="circle" data-row="3" data-col="5"></div>
+      </div>
+      <div class="white-square">
+        <img id="f3" class="pieces empty" src="" data-row="3" data-col="6" />
+        <div class="circle" data-row="3" data-col="6"></div>
+      </div>
+      <div class="black-square">
+        <img id="g3" class="pieces empty" src="" data-row="3" data-col="7" />
+        <div class="circle" data-row="3" data-col="7"></div>
+      </div>
+      <div class="white-square">
+        <img id="h3" class="pieces empty" src="" data-row="3" data-col="8" />
+        <div class="circle" data-row="3" data-col="8"></div>
+      </div>
+
+      <!-- ROW 2 -->
+      <div class="white-square">
+        <img
+          id="a2"
+          class="pieces pawn"
+          src="./Pieces/White Pawn.png"
+          data-row="2"
+          data-col="1"
+        />
+        <div class="circle" data-row="2" data-col="1"></div>
+      </div>
+      <div class="black-square">
+        <img
+          id="b2"
+          class="pieces pawn"
+          src="./Pieces/White Pawn.png"
+          data-row="2"
+          data-col="2"
+        />
+        <div class="circle" data-row="2" data-col="2"></div>
+      </div>
+      <div class="white-square">
+        <img
+          id="c2"
+          class="pieces pawn"
+          src="./Pieces/White Pawn.png"
+          data-row="2"
+          data-col="3"
+        />
+        <div class="circle" data-row="2" data-col="3"></div>
+      </div>
+      <div class="black-square">
+        <img
+          id="d2"
+          class="pieces pawn"
+          src="./Pieces/White Pawn.png"
+          data-row="2"
+          data-col="4"
+        />
+        <div class="circle" data-row="2" data-col="4"></div>
+      </div>
+      <div class="white-square">
+        <img
+          id="e2"
+          class="pieces pawn"
+          src="./Pieces/White Pawn.png"
+          data-row="2"
+          data-col="5"
+        />
+        <div class="circle" data-row="2" data-col="5"></div>
+      </div>
+      <div class="black-square">
+        <img
+          id="f2"
+          class="pieces pawn"
+          src="./Pieces/White Pawn.png"
+          data-row="2"
+          data-col="6"
+        />
+        <div class="circle" data-row="2" data-col="6"></div>
+      </div>
+      <div class="white-square">
+        <img
+          id="g2"
+          class="pieces pawn"
+          src="./Pieces/White Pawn.png"
+          data-row="2"
+          data-col="7"
+        />
+        <div class="circle" data-row="2" data-col="7"></div>
+      </div>
+      <div class="black-square">
+        <img
+          id="h2"
+          class="pieces pawn"
+          src="./Pieces/White Pawn.png"
+          data-row="2"
+          data-col="8"
+        />
+        <div class="circle" data-row="2" data-col="8"></div>
+      </div>
+
+      <!-- ROW 1 -->
+      <div class="black-square">
+        <img
+          id="a1"
+          class="pieces rook"
+          src="./Pieces/White Rook.png"
+          data-row="1"
+          data-col="1"
+        />
+        <div class="circle" data-row="1" data-col="1"></div>
+      </div>
+      <div class="white-square">
+        <img
+          id="b1"
+          class="pieces"
+          src="./Pieces/White Knight.png"
+          data-row="1"
+          data-col="2"
+        />
+        <div class="circle" data-row="1" data-col="2"></div>
+      </div>
+      <div class="black-square">
+        <img
+          id="c1"
+          class="pieces"
+          src="./Pieces/White Bishop.png"
+          data-row="1"
+          data-col="3"
+        />
+        <div class="circle" data-row="1" data-col="3"></div>
+      </div>
+      <div class="white-square">
+        <img
+          id="d1"
+          class="pieces"
+          src="./Pieces/White Queen.png"
+          data-row="1"
+          data-col="4"
+        />
+        <div class="circle" data-row="1" data-col="4"></div>
+      </div>
+      <div class="black-square">
+        <img
+          id="e1"
+          class="pieces king"
+          src="./Pieces/White King.png"
+          data-row="1"
+          data-col="5"
+        />
+        <div class="circle" data-row="1" data-col="5"></div>
+      </div>
+      <div class="white-square">
+        <img
+          id="f1"
+          class="pieces"
+          src="./Pieces/White Bishop.png"
+          data-row="1"
+          data-col="6"
+        />
+        <div class="circle" data-row="1" data-col="6"></div>
+      </div>
+      <div class="black-square">
+        <img
+          id="g1"
+          class="pieces"
+          src="./Pieces/White Knight.png"
+          data-row="1"
+          data-col="7"
+        />
+        <div class="circle" data-row="1" data-col="7"></div>
+      </div>
+      <div class="white-square">
+        <img
+          id="h1"
+          class="pieces rook"
+          src="./Pieces/White Rook.png"
+          data-row="1"
+          data-col="8"
+        />
+        <div class="circle" data-row="1" data-col="8"></div>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
