@@ -2,6 +2,8 @@
 
 A browser-based two-player chess game built with vanilla HTML, CSS, and JavaScript. Play chess directly in your browser with no installations or dependencies required.
 
+## Deployed Link : https://chess-015.netlify.app
+
 ## Features ✨
 
 - ♟️ Full two-player turn-based gameplay (White goes first)
